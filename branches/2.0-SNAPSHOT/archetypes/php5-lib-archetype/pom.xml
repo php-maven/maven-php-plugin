@@ -21,7 +21,7 @@
     <version>2.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>PHP ARCHETYPE: PHP LIBARY ${project.version}</name>
+    <name>PHP ARCHETYPE: PHP LIBRARY ${project.version}</name>
     
     <url>${phpmavenRootUrl}/${phpmavenTagType}/${phpmavenTagName}/archetypes/${project.artifactId}/</url>
     

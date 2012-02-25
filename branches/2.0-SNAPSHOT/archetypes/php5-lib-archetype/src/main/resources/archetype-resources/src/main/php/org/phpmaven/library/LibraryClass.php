@@ -1,6 +1,6 @@
 <?php
 
-namespace org\phpmaven\libary;
+namespace org\phpmaven\library;
 
 
 /**
@@ -8,7 +8,7 @@ namespace org\phpmaven\libary;
  *
  * @author banaalo, Marco Schulz
  */
-class LibaryClass {
+class LibraryClass {
 
     static private $info;
     static private $instance = null;
@@ -16,7 +16,7 @@ class LibaryClass {
     /** CONSTRUCTOR - private -
      *  Initalize the Class Attribute Info.
      */
-    private function LibaryClass() {
+    private function LibraryClass() {
         $this->info = "Info sets by the Constructor";
     }
 
@@ -24,7 +24,7 @@ class LibaryClass {
      * Call always the same Class instance and if there no instance then
      * create one.
      *
-     * @return <LibaryClass> instance
+     * @return <LibraryClass> instance
      */
     static public function getInstance() {
          if (null === self::$instance) {
