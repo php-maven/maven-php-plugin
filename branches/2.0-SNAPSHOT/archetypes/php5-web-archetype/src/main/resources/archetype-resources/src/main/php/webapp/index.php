@@ -22,10 +22,10 @@
 
             require_once 'lib/org/phpmaven/library/LibraryClass.php';
             
-            use org\phpmaven\libary\LibaryClass as Libary;
+            use org\phpmaven\library\LibraryClass as Library;
 
-            Libary::getInstance();
-            echo Libary::doFoo(true);
+            Library::getInstance();
+            echo Library::doFoo(true);
 
         ?>
     </body>
